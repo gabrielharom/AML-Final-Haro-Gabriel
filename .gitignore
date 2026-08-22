@@ -6,6 +6,33 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignorar datos pesados
+data/
+*.png
+*.csv
+*.zip
+*.tar.gz
+
+
+# Ignorar modelos guardados
+*.h5
+*.keras
+*.pt
+*.pkl
+
+
+# Ignorar checkpoints de notebooks y entornos
+.ipynb_checkpoints/
+__pycache__/
+venv/
+env/
+# Entornos virtuales 
+Proyecto_DL/
+proyecto_dl/
+.venv/
+.DS_Store
+**/.DS_Store
+
 # Distribution / packaging
 .Python
 build/
